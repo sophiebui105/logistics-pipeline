@@ -1,4 +1,7 @@
 .venv/
 data/raw/
 warehouse/
-__pycache__/
+*.duckdb
+transform/target/
+transform/dbt_packages/
+transform/logs/

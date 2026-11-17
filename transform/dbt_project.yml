@@ -1,0 +1,9 @@
+name: logistics
+version: "1.0.0"
+profile: logistics
+model-paths: ["models"]
+
+models:
+  logistics:
+    staging:
+      +materialized: view
